@@ -61,6 +61,7 @@ const record = [
   { year: "1960", result: "N/A" },
 ];
 
+
 function superbowlWin(array) {
   for (let item of array) {
     if (item.result === "W"){
@@ -71,6 +72,4 @@ function superbowlWin(array) {
   }
 
 superbowlWin(array);
-
-
 
